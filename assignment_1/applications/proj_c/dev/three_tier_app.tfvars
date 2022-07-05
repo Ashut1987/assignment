@@ -1,0 +1,16 @@
+resource_group_name = "vm-test-rg-01"
+resource_location = "eastus"
+subnet_names = ["public-subnet-01","private-subnet-01","protected-subnet-01"]
+subnet_address_ranges = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+protected_nsg_name = "protected_nsg_01"
+private_nsg_name = "private_nsg_01"
+public_nsg_name  = "public_nsg_name"
+subnet_nsg_count = "3"
+vnet_name = "vnet-test-01"
+vnet_address_space = ["10.0.0.0/16"]
+dns_servers = ["10.101.222.225", "10.101.222.226"]
+public_ip_name = "vm-public-ip"
+vm_host_name = "kpweusvmtst01"
+virtual_machine_size = "Standard_ds2_v2"
+vm_os_disk_size = "130"
+vm_data_disk_size = "40"
